@@ -9,5 +9,5 @@
 #### 1.2 Disassembling exterior
  - Unscrew the lid of the sensor
  - Take out wires
- - Disassemble the white cover
+ - Take apart the solar shields
  - Take out the circuit board and the wires
