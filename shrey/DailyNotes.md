@@ -17,6 +17,7 @@ Main Components:
 * Power Circuit Board (Argon)
 * C1+ Module (Argon) - encrypts data to be sent
 * Light Sensor Module
+* Some wiring
 
 ### 1.2: Sensor Portion
 
@@ -24,11 +25,12 @@ Main Components:
 
 * Steven Sunshield - Ovular plastic pieces
 * Arduino Board (Argon)
-* Optical Particle Counter
+* Optical Particle Counter (OPC)
+* Wiring
 
 Tomorrows work will be to obtain familiarization with Arduino and Raspberry Pi.
 
-Homework for the week:
-* Learn .json files
-* Learn matlab-ML
+**Homework for week of 6/23-6/29:**
+* Learn about .json files
+* Learn more about ML
 * Continue Classical Mechanics Book
