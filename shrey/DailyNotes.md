@@ -46,5 +46,6 @@ Today's work consisted of disassembling particulate matter (PM) sensors. There w
 5. Unplug all wires and cut zipties
 
 **Homework:**
-- Obtain familiarization with github and finish daily notes
-- Continue CM book
+- ~~Obtain basic familiarization with github~~
+- ~~Finish daily notes~~
+- Chapter 2 Problems of C.M. book
