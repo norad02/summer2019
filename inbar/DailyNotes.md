@@ -17,24 +17,10 @@
 #### 2.1 Set up Arduino Development Envioronment
  - Go to the web development editor [here](https://www.arduino.cc/en/Main/Software) and create an account
  - Download the Arduino Create plugin [here](https://create.arduino.cc/getting-started/plugin?page=2)
+#### 2.2 Do the first exercise
  - Write the following code in the editor:
-````/*
-# ***************************************************************************
-#   Summer 2019: Ex2
-#   ---------------------------------
-#   Written by: Inbar
-#   - for -
-#   Mints: Multi-scale Integrated Sensing and Simulation
-#   ---------------------------------
-#   Date: June 25th, 2019
-#   ---------------------------------
-#   [SAY SOMETHING ABOUT THE SKETCH]
-#   --------------------------------------------------------------------------
-#   https://github.com/mi3nts
-#   http://utdmints.info/
-#  ***************************************************************************
-*/
-
+````
+/*
 // the setup routine runs once when you press reset:
 void setup() {
   // initialize serial communication at 9600 bits per second:
@@ -48,4 +34,42 @@ void loop() {
   // Delay for 1000 miliseconds 
   delay(1000);        // delay in between reads for stability
     }
+````
+ - The serial monitor will now print "Hello MINTS: Multi-scale Integrated Sensing and Simulation" on loop
+#### 2.3 Do another exercise
+ - Change the code to:
+ ````
+ void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(500);                       // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(500);                       // wait for a second
+}
+````
+ - The LED light now flashes every half second
+ #### 2.4 Exercise 4
+ - Try the following:
+  ````
+ // the setup routine runs once when you press reset:
+void setup() {
+  // initialize serial communication at 9600 bits per second:
+  Serial.begin(9600);
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+// the loop routine runs over and over again forever:
+void loop() {
+  // Delay for 1000 miliseconds 
+  if(random(1, 10) > 5)
+    digitalWrite(LED_BUILTIN, LOW);
+  else
+    digitalWrite(LED_BUILTIN, HIGH);
+  delay(200);
+}
 ````
