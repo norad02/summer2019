@@ -86,6 +86,6 @@ The IDE can be found [here](https://www.arduino.cc/en/Main/Software)
 - The Atom Desktop IDE can be found [here](https://atom.io/)
 
 ## Ex7: Install PlatformIO within Atom
-- https://platformio.org/install/ide?install=atom
+- This link gives you installation details [here](https://platformio.org/install/ide?install=atom)
 
 
