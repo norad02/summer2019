@@ -4,9 +4,21 @@
 
 ### Task 1: Disassembling Of Particulate Matter Sensor
 
-Today's work consisted of dismantling of particulate matter (PM) sensors. There were two main sections: the sensor portion and the portion containing the processing units and the camera module.
+Today's work consisted of dismantling of particulate matter (PM) sensors. There were two sections within these sensors:
 
-### 1.1: Processing Portion
+* A portion containing the sensor itself (Optical Particle Counter) and an Argon Arduino Board to manage it.
+* A portion containing a GPS, camera module, and the processing units
+
+### 1.1: Sensor Portion
+
+Main Components:
+
+* Steven Sunshield - Ovular plastic pieces - These were desirable as they blocked out water and sunlight, but allowed particles to enter.
+* Arduino Board (Argon)
+* Optical Particle Counter (OPC)
+* Wiring
+
+### 1.2: Processing Portion
 
 Main Components:
 
@@ -19,16 +31,7 @@ Main Components:
 * Light Sensor Module
 * Some wiring
 
-### 1.2: Sensor Portion
-
-Main Components:
-
-* Steven Sunshield - Ovular plastic pieces
-* Arduino Board (Argon)
-* Optical Particle Counter (OPC)
-* Wiring
-
-Tomorrows work will be to obtain familiarization with Arduino and Raspberry Pi.
+**Work of tomorrow:** will be to obtain familiarization with Arduino and Raspberry Pi.
 
 **Homework for week of 6/23-6/29:**
 * Learn about .json files
