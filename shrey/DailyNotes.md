@@ -9,16 +9,23 @@ Today's work consisted of dismantling of particulate matter (PM) sensors. There 
 - A portion containing the sensor itself (Optical Particle Counter) and an Argon Arduino Board to manage it.
 - A portion containing a GPS, camera module, and the processing units
 
-### 1.1: Sensor Portion
+### 1.1: Sensor Portion (Exterior)
 
-Main Components:
 
-- Steven Sunshield - Ovular plastic pieces - These were desirable as they blocked out water and sunlight, but allowed particles to enter.
-- Arduino Board (Argon)
+**Main Components:**
+
+- Steven Sunshields
 - Optical Particle Counter (OPC)
-- Wiring
+- Circuit Board (Manage OPC)
 
-### 1.2: Processing Portion
+**Deconstruction Process:**
+1. Free wires from the lid of the interior portion
+2. Unscrew washers from metal rods and slide rods out
+3. Remove all steven sunshields except the base one
+4. Unscrew circuit board
+5. Unplug all wires and cut zipties
+
+### 1.2: Processing Portion (Interior)
 
 Main Components:
 
