@@ -13,7 +13,7 @@
  - Take out the circuit board and the wires
 
 ## June 25th, 2019
-### Task 2: Try out the Arduino
+### Task 2: Set Up Arduino Environment
 #### 2.1 Set up Arduino Development Envioronment
  - Go to the web development editor [here](https://www.arduino.cc/en/Main/Software) and create an account
  - Download the Arduino Create plugin [here](https://create.arduino.cc/getting-started/plugin?page=2)
@@ -73,3 +73,7 @@ void loop() {
   delay(200);
 }
 ````
+#### 2.5 Set up Desktop Arduino IDE
+ - Download the desktop IDE [here](https://www.arduino.cc/en/Main/Software)
+ - Make sure to pause the plugin downloaded earlier
+ - Try out the exercises from before
