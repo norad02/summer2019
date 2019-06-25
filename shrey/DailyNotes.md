@@ -48,4 +48,4 @@ Today's work consisted of disassembling particulate matter (PM) sensors. There w
 **Homework:**
 - ~~Obtain basic familiarization with github~~
 - ~~Finish daily notes~~
-- Chapter 2 Problems of C.M. book
+- ~~Chapter 2 Problems of C.M. book~~
