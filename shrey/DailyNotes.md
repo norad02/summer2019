@@ -9,22 +9,7 @@ Today's work consisted of disassembling particulate matter (PM) sensors. There w
 - A portion containing the sensor itself (Optical Particle Counter) and an Argon Arduino Board to manage it.
 - A portion containing a GPS, camera module, and the processing units
 
-### Task 1.1: Sensor Portion (Exterior)
-
-**Main Components:**
-
-- Steven Sunshields
-- Optical Particle Counter (OPC)
-- Circuit Board (Manage OPC)
-
-**Dismantling Process:**
-1. Free wires from the lid of the interior portion
-2. Unscrew washers from metal rods and slide rods out
-3. Remove all steven sunshields except the base one
-4. Unscrew circuit board
-5. Unplug all wires and cut zipties
-
-### Task 1.2: Processing Portion (Interior)
+### 1.1: Processing Portion (Interior)
 
 **Main Components:**
 
@@ -32,18 +17,34 @@ Today's work consisted of disassembling particulate matter (PM) sensors. There w
 - USB 3 Power Hub
 - 5.0 MP USB Camera Module
 - Linux Computer - Odroid XU4 - central computing unit
-- Power Circuit Board (Argon)
+- PCB (Argon)
 - C1+ Module (Argon) - encrypts data to be sent
 - Light Sensor Module
-- Some wiring
 
 **Dismantling Process**
 
-1. 
+1. Remove box lid
+2. Remove 3D printed frame and all components from box
+3. Remove USBs and Ethernet cables
+4. Remove USB hub and Ethernet-USB converter
+5. Remove wires attached to terminal blocks in PCB
+5. Unscrew all circuit boards
+6. Remove GPS module
 
-**Work of tomorrow:** Obtain familiarization with Arduino and Raspberry Pi.
+### 1.2: Sensor Portion (Exterior)
 
-**Homework for week of 6/23-6/29:**
-- Learn about .json files
-- Learn more about ML
-- Continue Classical Mechanics Book
+**Main Components:**
+
+- Steven Sunshields
+- Optical Particle Counter (OPC)
+- PCB (Manage OPC)
+
+**Dismantling Process:**
+1. Free wires from the lid of the interior portion
+3. Unscrew and remove all steven sunshields except the base one
+4. Unscrew PCB
+5. Unplug all wires and cut zipties
+
+**Homework:**
+- Obtain familiarization with github and finish daily notes
+- Continue CM book
