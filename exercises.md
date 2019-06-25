@@ -82,7 +82,8 @@ The IDE can be found [here](https://www.arduino.cc/en/Main/Software)
 
 ## Ex5: Do Exercise 2 and 3 on the Desktop IDE
 
-
+## EX6: Download And Install Atom Desktop IDE
+- The Atom Desktop IDE can be found [here](https://atom.io/)
 
 
 
